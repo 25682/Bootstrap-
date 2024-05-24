@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to kpop world</title>
+    <!-- Bootstrap CSS from CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles for the page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .navbar {
+            background-color: #343a40;
+        }
+
+        .navbar-brand,
+        .nav-link,
+        .form-inline .btn-outline-success {
+            color: #ffffff !important;
+        }
+
+        .jumbotron {
+            background-color: #6c757d;
+            color: #ffffff;
+        }
+
+        .card-title {
+            color: #495057;
+        }
+
+        .card-text {
+            color: #6c757d;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #004085;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 1rem 0;
+        }
+
+        .table th,
+        .table td {
+            border: 1px solid #dee2e6;
+        }
+
+        .mb-4 {
+            margin-bottom: 1.5rem !important;
+        }
+
+        .mt-5 {
+            margin-top: 3rem !important;
+        }
+
+        h2 {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Haha Hall</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Programs">Programs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Admission details">Admission Details</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="jumbotron text-center">
+        <h1 class="display-4">Welcome to Haha Hall</h1>
+        <p class="lead">Explore a variety of components in one convenient location..</p>
+        <a class="btn btn-primary btn-lg" href="#content" role="button">Learn more</a>
+    </header>
+
+    <!-- Main Content Section -->
+    <div class="container" id="content">
+        <!-- Row with Columns -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://img.freepik.com/premium-photo/caffeine-grin-animated-adventure-coffee-addiction_983420-30376.jpg?w=740" class="card-img-top" alt="Caffeine Craze">
+                    <div class="card-body">
+                        <h5 class="card-title"> Caffeine Craze </h5>
+                        <p class="card-text"> Join us for a coffee-fueled study session with free-flowing java, cozy vibes, and a chance to win a caffeine-themed gift basket!</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://static.vecteezy.com/system/resources/previews/007/804/547/large_2x/game-night-time-with-family-free-vector.jpg" class="card-img-top" alt="Game Night">
+                    <div class="card-body">
+                        <h5 class="card-title"> Brainiac Bash </h5>
+                        <p class="card-text">A night of trivia, puzzles, and brain games to challenge your intellect and unwind from the academic grind!</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://scontent.fdxb3-3.fna.fbcdn.net/v/t39.30808-6/307371428_132679046187325_1872184857377305358_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=BH5hvv8qYzYQ7kNvgEXn51-&_nc_ht=scontent.fdxb3-3.fna&oh=00_AYAotqWkRGxF294D0f4uTirdrlXtMAram2iSry4NP4icuw&oe=6655DCFC" class="card-img-top" alt="Nerd Nerd">
+                    <div class="card-body">
+                        <h5 class="card-title"> Nerd Olympics </h5>
+                        <p class="card-text"> Compete in quirky challenges and games that celebrate all things nerdy, from mathletes to literature buffs, in a battle for the title of Ultimate Nerd! </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Forms Section -->
+        <h2 id="forms"> Sign up using the form below</h2>
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Remember me</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <!-- Table Section -->
+        <h2 id="tables" class="mt-5">Faculty Involvement: These faculty members will be involved. Feel free to reach out to them for more information.</h2>
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Lee</td>
+                        <td>Marklee@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Lee</td>
+                        <td>Haechan</td>
+                        <td>donghyuck@yahoo.com</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Kim</td>
+                        <td>Mingyu</td>
+                        <td>KimMingyu@hybe.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start">
+        <div class="text-center p-3">
+            © 2024 Bootstrap Showcase
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies (jQuery and Popper.js) from CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
